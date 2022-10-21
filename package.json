@@ -1,0 +1,32 @@
+{
+  "name": "timheuer-extensionpack",
+  "displayName": "Tim's Extensions",
+  "description": "My helpful set of extensions for C# development.",
+  "version": "0.0.1",
+  "author": "Tim Heuer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timheuer/timheuer-extensionpack"
+  },
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.72.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [ 
+    "GitHub.copilot", 
+    "GitHub.github-vscode-theme", 
+    "ms-dotnettools.csharp", 
+    "ms-edgedevtools.vscode-edge-devtools", 
+    "ms-vscode-remote.remote-containers", 
+    "ms-vscode-remote.remote-wsl", 
+    "ms-vscode.azure-account", 
+    "ms-vscode.azurecli", 
+    "ms-vscode.test-adapter-converter", 
+    "RapidAPI.vscode-rapidapi-client", 
+    "redhat.vscode-yaml", 
+    "samirat.csharp-test-adapter"
+  ]
+}
